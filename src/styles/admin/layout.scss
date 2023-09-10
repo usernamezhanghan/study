@@ -1,0 +1,50 @@
+.admin-content {
+  padding: 16px 24px 32px;
+
+  .admin-search {
+    padding-bottom: 16px;
+
+    .search-label {
+      margin-right: 8px;
+      margin-left: 20px;
+      color: #666;
+    }
+
+    .mrl-8 {
+      margin: 0 8px;
+    }
+  }
+
+  .admin-page {
+    margin-top: 26px;
+    text-align: center;
+  }
+
+  .table-action {
+    .link {
+      margin-right: 16px;
+      color: #4182fa;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .disabled {
+      color: rgba(74, 74, 74, 0.5);
+
+      &:hover {
+        color: rgba(74, 74, 74, 0.5) !important;
+      }
+    }
+  }
+}
+
+.ivu-dropdown-item {
+  &:hover {
+    background: rgba(65,130,250,0.05);
+  }
+  &:active {
+    color: #4182fa;
+  }
+}
