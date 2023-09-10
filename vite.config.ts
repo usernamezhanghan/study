@@ -17,7 +17,7 @@ export default defineConfig({
     port: 5555,
     proxy: {
       '/api': {
-        target: '跨域代理地址',
+        target: 'http://',
         changeOrigin: true
       }
     }
